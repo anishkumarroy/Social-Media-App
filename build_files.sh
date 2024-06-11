@@ -1,2 +1,11 @@
+#!/bin/bash
+
+# Ensure virtual environment is created and activated
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-python3.9 manage.py collectstatic
+
+# Collect static files
+python manage.py collectstatic --noinput
