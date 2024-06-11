@@ -1,0 +1,17 @@
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.pyo
+*.pyd
+venv/
+env/
+virtualenv/
+local/
+bin/
+obj/
+.git/
+node_modules/
+build/
+dist/
